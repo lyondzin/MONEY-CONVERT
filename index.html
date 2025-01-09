@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link hred="dist/output.css" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet">
 </head>
 <body>
-    
+
+    <nav class="bg-gray-500 p-8">
+        <div class="max-w-7xl ml-4 mr-auto flex items-center justify-between">
+          <a class="text-3xl text-white">Lexchanger</a>
+          <div class="ml-auto mr-4">
+            <a href="info.html">INFO PENTING</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="flex flex-col justify-center items-center  p-20 text-5xl min-h-screen bg-green-500">
+        <h1 class="text-center">MONEY CONVERTER</h1>
+
+        <div class="bg-white text-white p-6 w-full h-80 rounded-3xl mt-10 flex flex-col">
+          
+            <div class="bg-white w-full h-full ml-4">
+                <div class="flex justify-between p-5">
+                  
+                    <div class="flex flex-col">
+                        <h1 class="text-black text-4xl mb-1">(IDR)</h1>
+                        <input type="text" class="border-black border-2  text-black p-6 max-w-md h-24" placeholder="1000" />
+                    </div>
+
+                    
+                    <a class="text-8xl self-center text-black">→</a>
+
+                  
+                    <div class="flex flex-col">
+                        <h1 class="text-black text-4xl mb-1">(USD)</h1>
+                        <input type="text" class="border-black border-2 text-black p-6 max-w-md h-24" placeholder="1000" />
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
 </body>
+<script src="script.js"></script>
 </html>
